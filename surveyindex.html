@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href = "survey.css"></head>
+  <body>
+    <h1 id ="title">Survey Form</h1>
+    <p id ="description">About this survey, fun little survey about what going with you</p>
+    <div>
+    <form id ="survey-form">
+      <label id ="name-label"></label>
+      <input id = "name" placeholder ="name" type="text">
+      <label id ="email-label"></label>
+      <input id ="email" type="text" placeholder ="email">
+      </div>
+      <select id = "dropdown">
+        <option value="day">What day is it?</option>
+        <option value="Monday">Monday</option>
+        <option value ="Tuesday">Tuesday</option>
+        <option value ="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value = "Friday">Friday</option>
+        <option value = "Saturday">Saturday</option>
+        <option value ="Sunday">Sunday</option>
+      </select>
+      <label id ="number-label"></label>
+      <input
+         min="0" max="31" id="number" type="number" required placeholder = "number">
+
+      </div>
+      <div>
+       <h2>Is it the weekend?</h2>
+      <input class ="weekend" type="radio" name ="weekend">yes
+      <input class="weekend" type="radio" name ="weekend">no
+      </div> <br/>
+      <div class="check">
+        <input type="checkbox" name="love" value="love" id="love"><label for="love"> Check if you love this website!</label><br>
+        <input type="checkbox" name="dislike" value="dislike" id="dislike"><label for="dislike"> Check if you dislike this website!</label>
+        <h2>What you like to do for fun?</h2>
+        <input type="checkbox" name="read" value="read" id="read"><label for="read"> read</label>
+        <input type="checkbox" name="video" value="video" id="video"><label for="video"> play video games</label>
+        <input type="checkbox" name="tv" value="tv" id="dislike"><label for="tv"> Watch TV</label>
+        <input type="checkbox" name="code" value="code" id="code"><label for="code"> I like to code!</label>
+      </div>
+      <div>
+
+      </div>
+    </form>
+  </body>
+</html>
